@@ -63,7 +63,7 @@ This project demonstrates a video streaming solution using Node.js, Express, and
 
    ```bash
    cd backend
-   npm start
+   npm run dev
    ```
 
    The backend server will be running on `http://localhost:8000`.
@@ -74,7 +74,7 @@ This project demonstrates a video streaming solution using Node.js, Express, and
 
    ```bash
    cd ../frontend
-   npm start
+   npm run dev
    ```
 
    The frontend will be running on `http://localhost:3000` (or `http://localhost:5173` if using Vite).
@@ -106,13 +106,9 @@ Replace `{lessonId}` with the actual lesson ID generated during the upload.
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 *Developed by Abhimanyu Jangid*
-```
 
-This README file gives a clear overview of your project, guides users through installation and setup, and provides information on how to use the application. You can further customize it as needed!
+
