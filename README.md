@@ -142,7 +142,7 @@ In the **Video Streaming Concept** project, FFmpeg is used to convert video file
 
 ---
 
-This README file provides a basic understanding of FFmpeg and the role of video segments in video streaming. Feel free to expand upon this content or modify it to suit the needs of your project!
+
 ---
 
 *Developed by Abhimanyu Jangid*
