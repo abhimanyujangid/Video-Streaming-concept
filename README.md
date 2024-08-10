@@ -1,3 +1,6 @@
+Here's a `README.md` file tailored for your "Video-Streaming-concept" GitHub repository:
+
+```markdown
 # Video Streaming Concept
 
 This project demonstrates a video streaming solution using Node.js, Express, and Video.js. The application allows users to upload video files, which are then converted to HLS (HTTP Live Streaming) format using FFmpeg. The converted videos can be streamed via a React frontend using Video.js.
@@ -36,3 +39,80 @@ This project demonstrates a video streaming solution using Node.js, Express, and
    ```bash
    git clone https://github.com/abhimanyujangid/Video-Streaming-concept.git
    cd Video-Streaming-concept
+   ```
+
+2. Install the backend dependencies:
+
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. Install the frontend dependencies:
+
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+### Running the Application
+
+#### Backend
+
+1. Start the backend server:
+
+   ```bash
+   cd backend
+   npm start
+   ```
+
+   The backend server will be running on `http://localhost:8000`.
+
+#### Frontend
+
+2. Start the React frontend:
+
+   ```bash
+   cd ../frontend
+   npm start
+   ```
+
+   The frontend will be running on `http://localhost:3000` (or `http://localhost:5173` if using Vite).
+
+### Uploading and Streaming Videos
+
+1. Navigate to the frontend in your browser.
+2. Upload a video file using the provided interface.
+3. The video will be converted to HLS format, and a streaming URL will be generated.
+4. The video will be displayed and streamed using the Video.js player.
+
+## Project Structure
+
+- **backend/** - Contains the Express server and video upload/conversion logic.
+- **frontend/** - Contains the React application and Video.js integration.
+- **uploads/** - Directory where uploaded videos and HLS files are stored.
+
+## Example Video URL
+
+After uploading a video, you can access the streaming URL at:
+
+```
+http://localhost:8000/uploads/courses/{lessonId}/index.m3u8
+```
+
+Replace `{lessonId}` with the actual lesson ID generated during the upload.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*Developed by Abhimanyu Jangid*
+```
+
+This README file gives a clear overview of your project, guides users through installation and setup, and provides information on how to use the application. You can further customize it as needed!
