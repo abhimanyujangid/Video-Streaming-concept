@@ -1,4 +1,4 @@
-Here's a `README.md` file tailored for your "Video-Streaming-concept" GitHub repository:
+
 
 ```markdown
 # Video Streaming Concept
