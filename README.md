@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Video Streaming Concept
 
 This project demonstrates a video streaming solution using Node.js, Express, and Video.js. The application allows users to upload video files, which are then converted to HLS (HTTP Live Streaming) format using FFmpeg. The converted videos can be streamed via a React frontend using Video.js.
@@ -139,9 +139,6 @@ Certainly! Below is a README file that explains FFmpeg, video segments, and thei
 ### Use Case in This Project
 
 In the **Video Streaming Concept** project, FFmpeg is used to convert video files into HLS format by segmenting the video. This approach enhances the streaming experience, allowing for smoother playback, faster start times, and the flexibility to adapt to different network conditions.
-
----
-
 
 ---
 
